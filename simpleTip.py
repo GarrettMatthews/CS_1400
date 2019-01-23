@@ -10,8 +10,7 @@ Type "copyright", "credits" or "license()" for more information.
 	po = (.10 * tip)
 	print("For excellent service tip ${0:.2f}".format(ex),"for a total amount of ${0:.2f}".format(ex + tip))
 	print("For average service tip ${0:.2f}".format(av),"for a total amount of ${0:.2f}".format(av + tip))
-	print("For por service tip ${0:.2f}".format(po),"for a total amount of ${0:.2f}".format(po + tip))
+	print("For poor service tip ${0:.2f}".format(po),"for a total amount of ${0:.2f}".format(po + tip))
 
 	
 >>> # I learned how to use the round() function, and it's limitations, as well as how to use the format function. The key to me understanding the format function was realizing the {0:.2f} needed to be part of a string to work. I also learned the importance of sometimes trying code out a few lines at a time in order to solve issues that may not be readily apparent. As the top comment mentioned, I struggled with coming up with a solution to always have two decimal places printed, as round() was limited in that regard. I also had issues with syntax that were solved by taking the code one step at a time, making sure each part worked before moving on.
->>> 
