@@ -9,5 +9,9 @@ print("MPH|",'\t',"-20",'\t',"-10",'\t',"0",'\t',"10",'\t',"20",'\t',"30",'\t',"
 print("---+--------------------------------------------------------")
 for v in range(0,52,5):
     t = -20
-    print(v,"|",'\t',"{0:.0f}".format(wind_chill(t,v)),'\t',"{0:.0f}".format(wind_chill(t+10,v)),'\t',"{0:.0f}".format(wind_chill(t+20,v)),'\t',"{0:.0f}".format(wind_chill(t+30,v)),'\t',"{0:.0f}".format(wind_chill(t+40,v)),'\t',"{0:.0f}".format(wind_chill(t+50,v)),'\t',"{0:.0f}".format(wind_chill(t+60,v)),'\t',"{0:.0f}".format(wind_chill(t+80,v)),'\t',"{0:.0f}".format(wind_chill(t+90,v)))
+    print(v,"|",'\t',"{0:.0f}".format(wind_chill(t,v)),'\t',"{0:.0f}".format(wind_chill(t+10,v)),
+          '\t',"{0:.0f}".format(wind_chill(t+20,v)),'\t',"{0:.0f}".format(wind_chill(t+30,v)),'\t',
+          "{0:.0f}".format(wind_chill(t+40,v)),'\t',"{0:.0f}".format(wind_chill(t+50,v)),'\t',
+          "{0:.0f}".format(wind_chill(t+60,v)),'\t',"{0:.0f}".format(wind_chill(t+80,v)),'\t',
+          "{0:.0f}".format(wind_chill(t+90,v)))
 
