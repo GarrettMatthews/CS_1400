@@ -1,0 +1,37 @@
+Entered Order 
+Bowler		Score 
+Sam		200
+Bill		125
+Mary		235
+Jane		205
+*Alex		300
+Sue		280
+
+
+Numerical Order 
+Bowler		Score 
+Alex		300
+Sue		280
+Mary		235
+Jane		205
+Sam		200
+Bill		125
+
+
+Alphabetical Order 
+Bowler		Score 
+Alex		300
+Bill		125
+Jane		205
+Mary		235
+Sam		200
+Sue		280
+
+
+Congratulations Alex! You had the high score of 300!
+
+
+Sorry Bill, you had the lowest score of 125.
+
+
+The average score for the team is 224
